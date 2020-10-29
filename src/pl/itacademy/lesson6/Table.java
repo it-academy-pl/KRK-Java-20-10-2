@@ -1,9 +1,11 @@
-package lesson6;
+package pl.itacademy.lesson6;
 
 public class Table {
     private String colour;
     private String material;
     private int height;
+    private int numberOfLegs;
+    private boolean readyToUse;
 
     public void setColour(String newColour) {
         colour = newColour;
@@ -27,5 +29,21 @@ public class Table {
 
     public int getHeight() {
         return height;
+    }
+
+    public int getNumberOfLegs() {
+        return numberOfLegs;
+    }
+
+    public void setNumberOfLegs(int numberOfLegs) {
+        this.numberOfLegs = numberOfLegs;
+    }
+
+    public boolean isReadyToUse() {
+        return readyToUse;
+    }
+
+    public void setReadyToUse(boolean readyToUse) {
+        this.readyToUse = readyToUse;
     }
 }

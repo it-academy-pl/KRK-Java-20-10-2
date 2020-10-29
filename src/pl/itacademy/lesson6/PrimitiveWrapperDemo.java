@@ -1,4 +1,4 @@
-package lesson6;
+package pl.itacademy.lesson6;
 
 public class PrimitiveWrapperDemo {
     public static void main(String[] args) {
