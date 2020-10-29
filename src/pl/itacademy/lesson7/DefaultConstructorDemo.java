@@ -24,7 +24,6 @@ public class DefaultConstructorDemo {
         System.out.println("anotherDoor.getAmount() = " + anotherDoor.getAmount());
         System.out.println("aDoor.getAmount() = " + aDoor.getAmount());
 
-
         Table table = new Table();
     }
 }
