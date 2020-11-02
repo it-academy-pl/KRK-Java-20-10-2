@@ -2,6 +2,8 @@ package pl.itacademy.lesson7;
 
 import pl.itacademy.lesson6.Table;
 
+import java.util.Arrays;
+
 public class DefaultConstructorDemo {
     public static void main(String[] args) {
         Door aDoor = new Door();
