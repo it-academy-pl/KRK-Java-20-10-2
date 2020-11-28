@@ -6,15 +6,18 @@ public class Account {
     private String number;
     private BigDecimal balance;
 
-    boolean topUp(BigDecimal amount) {
-        return false;
+    void topUp(BigDecimal amount) {
     }
 
-    boolean withdraw(BigDecimal amount) {
-        return false;
+    BigDecimal withdraw(BigDecimal amount) {
+        return BigDecimal.ZERO;
     }
 
     String getNumber() {
         return "";
+    }
+
+    BigDecimal getBalance() {
+        return BigDecimal.ZERO;
     }
 }

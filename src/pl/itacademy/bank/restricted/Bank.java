@@ -9,19 +9,17 @@ public class Bank {
         return "";
     }
 
-    public boolean registerAccount() {
-        return false;
+    public void registerAccount() {
     }
 
     public void recalculatePercents() {
 
     }
 
-    public boolean topUp(String accountNumber, BigDecimal amount) {
-        return false;
+    public void topUp(String accountNumber, BigDecimal amount) {
     }
 
-    public boolean withDraw(String accountNumber, BigDecimal amount) {
-        return false;
+    public BigDecimal withDraw(String accountNumber, BigDecimal amount) {
+        return BigDecimal.ZERO;
     }
 }
