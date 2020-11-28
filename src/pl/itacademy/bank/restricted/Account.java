@@ -14,10 +14,6 @@ public class Account {
         return false;
     }
 
-    BigDecimal getBalance() {
-        return BigDecimal.ZERO;
-    }
-
     String getNumber() {
         return "";
     }
