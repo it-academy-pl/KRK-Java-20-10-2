@@ -2,7 +2,7 @@ package pl.itacademy.bank.restricted;
 
 import java.math.BigDecimal;
 
-public class Account {
+public abstract class Account {
     private String number;
     private BigDecimal balance;
 
